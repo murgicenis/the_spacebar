@@ -22,6 +22,7 @@ class ArticleController extends AbstractController
      */
     public function show($slug)
     {
+//        dump($slug, $this);
 //        return new Response(sprintf(
 //            'Future page to show the article: "%s"',
 //            $slug
