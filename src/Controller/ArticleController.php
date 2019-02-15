@@ -75,6 +75,7 @@ EOF;
     /**
      * @Route("/news/{slug}/heart", name="article_toggle_heart", methods={"POST"})
      * @param $slug
+     * @return JsonResponse
      */
     public function toggleArticleHeart($slug, LoggerInterface $logger)
     {
